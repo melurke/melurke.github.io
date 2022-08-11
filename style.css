@@ -1,5 +1,5 @@
 html {
-    background-color: rgb(15, 17, 22);
+    background-color: rgb(11, 14, 20);
 }
 
 body {
@@ -11,17 +11,17 @@ body {
 
 a {
     text-decoration: none;
-    color:rgb(40, 151, 40);
+    color:rgb(24, 108, 168);
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(52, 221, 52)
+    color: rgb(37, 163, 255)
 }
 
 .headline {
-    color: rgb(52, 221, 52);
+    color: rgb(37, 163, 255);
     text-decoration: underline;
 }
 
