@@ -11,17 +11,17 @@ body {
 
 a {
     text-decoration: none;
-    color:rgb(24, 108, 168);
+    color:rgb(54, 137, 185);
     font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
-    color: rgb(37, 163, 255)
+    color: rgb(89, 194, 255);
 }
 
 .headline {
-    color: rgb(37, 163, 255);
+    color: rgb(89, 194, 255);
     text-decoration: underline;
 }
 
