@@ -101,6 +101,11 @@ a:hover {
     color: #1a8fe3;
 }
 
+.content hr {
+    margin-left: -16px;
+    color: #181d20
+}
+
 .important {
     color: #1a8fe3;
 }
