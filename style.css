@@ -147,12 +147,3 @@ a:hover {
     color: #f8f1ff;
     background-color: #1a8fe3;
 }
-
-.box {
-    width: 45%;
-    border-radius: 16px;
-    padding: 20px;
-    background-color:#1a8fe3;
-    color:#f8f1ff;
-    box-shadow: 0 0px 8px #1a8fe3;
-}
