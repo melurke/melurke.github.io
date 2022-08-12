@@ -1,30 +1,158 @@
-html {
-    background-color:#0B0E14;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: #f8f1ff;
 }
 
-body {
+.content {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: large;
-    color:#dddddd;
+    color:#181d20;
     margin-left: 16px;
+    background-color: #f8f1ff;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #181d20;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+}
+
+.inner_header {
+    width: 55%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: #181d20;
+}
+
+.name_container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.name_container h1 {
+    color: #1a8fe3;
+    background-color: #181d20;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.name_container h1 span {
+    font-weight: 200;
+    color: #f8f1ff;
+    background-color: #181d20;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    background-color: #181d20;
+}
+
+.navigation a:last-child {
+    padding-right: 0;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #f8f1ff;
+    background-color: #181d20;
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.navigation a li span {
+    color: #96e6b3;
+    background-color: #181d20;
 }
 
 a {
     text-decoration: none;
-    color:#3689b9;
+    color:#1368A4;
     font-weight: bold;
 }
 
+.transition_link {
+    transition: 0.4s;
+}
+
 a:hover {
-    text-decoration: underline;
-    color: #59c2ff;;
+    color: #1a8fe3;
 }
 
-.headline {
-    color:#59c2ff;
-    text-decoration: underline;
+.important {
+    color: #1a8fe3;
 }
 
-li {
+.content li {
     margin-left: 16px;
+    list-style: disc;
+}
+
+.headline1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.headline2 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.praktikum_links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: large;
+    font-weight: 600;
+    margin: 0 15px;
+    transition: 0.4s;
+
+    color:  #1a8fe3;
+    border: 3px solid #1a8fe3;
+}
+
+.button:hover {
+    color: #f8f1ff;
+    background-color: #1a8fe3;
+}
+
+.box {
+    width: 45%;
+    border-radius: 16px;
+    padding: 20px;
+    background-color:#1a8fe3;
+    color:#f8f1ff;
+    box-shadow: 0 0px 8px #1a8fe3;
 }
