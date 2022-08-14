@@ -1,60 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Max Dörich Webseite</title>
-	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Max Dörich Webseite</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!-- Header -->
-	<div class="header">
-		<div class="inner_header">
-			<div class="name_container">
-				<h1>Max<span> Dörich</span></h1>
-			</div>
+    <!-- Header -->
+    <header>
+        <div class="name_container"><h1>Max<span> Dörich</span></h1></div>
+        <nav>
+            <ul>
+                <li><a target="_blank" href="https://www.eppelheim.de/dbg/">Meine Schule</a></li>
+                <li><a target="_blank" href="mailto:maxdoerich314@gmail.com">E-Mail</a></li>
+                <li class="important_list"><a target="_blank" href="https://www.github.com/melurke">GitHub</a></li>
+                <li><a target="_blank" href="https://www.twitter.com/melurke_">Twitter</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger_icon" onclick="toggleMobileMenu(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+            <ul class="mobile_menu">
+                <li><a target="_blank" href="https://www.eppelheim.de/dbg/">Meine Schule</a></li>
+                <li><a target="_blank" href="mailto:maxdoerich314@gmail.com">E-Mail</a></li>
+                <li class="important_list"><a target="_blank" href="https://www.github.com/melurke">GitHub</a></li>
+                <li><a target="_blank" href="https://www.twitter.com/melurke_">Twitter</a></li>   
+            </ul>
+        </div>
+    </header>
+    <br>
 
-			<ul class="navigation">
-				<a target="_blank" href="https://www.eppelheim.de/dbg/"><li>Meine Schule</li></a>
-				<a target="_blank" href="mailto:maxdoerich314@gmail.com"><li>E-Mail</li></a>
-				<a target="_blank" href="https://www.github.com/melurke"><li class="important_list">GitHub</li></a>
-				<a target="_blank" href="https://www.twitter.com/melurke_"><li>Twitter</li></a>
-			</ul>
-		</div>
-	</div>
-	<br />
+    <div class="content">
 
-	<div class="content">
+        <!-- Praktikum -->
+        <div>
+            <span class="headline2 important">Praktikum </span><span class="headline2">beim Mathematikon Heidelberg</span><br><br>
+            <span>Datum: 25.04.2022 - 06.05.2022</span><br><br>
+            <p>In meinem Praktikum am Mathematikon Heidelberg habe ich mich mit der Theorie hinter verschiedenen Spielen auseinandergesetzt. Hierzu habe ich verschiedene Konzepte aus der Geometrie, Algebra, Kombinatorik und den Computerwissenschaften verwendet, um diese zu analysieren. Außerdem habe ich ein paar dieser Spiele und Programme, die diese optimal spielen, selbst programmiert.</p><br>
+            <div class="button_container">
+                <div class="inner_button_container">
+                    <a class="button" target="_blank" href="bogy_certificate.pdf">Zertifikat</a>
+                    <a class="button" target="_blank" href="https://hegl.mathi.uni-heidelberg.de">Webseite Mathematikon</a>
+                </div>
+                <div class="inner_button_container">
+                    <a class="button" target="_blank" href="https://hegl.mathi.uni-heidelberg.de/research-2/research/summer-2022-student-projects/#games-of-chance-and-skill">Artikel über mein Praktikum</a>
+                    <a class="button" target="_blank" href="https://github.com/hegl-lab/Internship-2022">GitHub Code</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <br>
 
-		<!-- Praktikum -->
-		<div>
-			<span class="headline2 important">Praktikum </span><span class="headline2">beim Mathematikon Heidelberg</span><br /><br />
-			<span>Datum: 25.04.2022 - 06.05.2022</span><br /><br />
-			<p>In meinem Praktikum am Mathematikon Heidelberg habe ich mich mit der Theorie hinter verschiedenen Spielen auseinandergesetzt. Hierzu habe ich verschiedene Konzepte aus der Geometrie, Algebra, Kombinatorik und den Computerwissenschaften verwendet, um diese zu analysieren. Außerdem habe ich ein paar dieser Spiele und Programme, die diese optimal spielen, selbst programmiert.</p><br />
-			<div class="praktikum_links">
-				<a class="button" target="_blank" href="bogy_certificate.pdf">Zertifikat</a>
-				<a class="button" target="_blank" href="https://hegl.mathi.uni-heidelberg.de">Webseite Mathematikon</a>
-				<a class="button" target="_blank" href="https://hegl.mathi.uni-heidelberg.de/research-2/research/summer-2022-student-projects/#games-of-chance-and-skill">Artikel über mein Praktikum</a>
-				<a class="button" target="_blank" href="https://github.com/hegl-lab/Internship-2022">GitHub Code</a>
-			</div>
-		</div>
-		<br />
-		<hr>
-		<br />
-
-		<!-- Projekte -->
-		<div>
-			<span class="headline2 important">Projekt</span><span class="headline2">auswahl</span><br /><br />
-			<li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Wordle">Wordle Bot</a></li>
-			<li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Minesweeper">Minesweeper Bot</a></li>
-			<li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Spelling-Bee">Spelling Bee Bot (NY Times)</a></li>
-			<li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Arduino">Arduino</a></li>
-			<li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/PySimpleGUI">Anmeldeformular für meine Schule</a></li>
-		</div>
-	</div>
+        <!-- Projekte -->
+        <div>
+            <span class="headline2 important">Projekt</span><span class="headline2">auswahl</span><br><br>
+            <li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Wordle">Wordle Bot</a></li>
+            <li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Minesweeper">Minesweeper Bot</a></li>
+            <li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Spelling-Bee">Spelling Bee Bot (NY Times)</a></li>
+            <li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/Arduino">Arduino</a></li>
+            <li><a class="transition_link" target="_blank" href="https://www.github.com/melurke/PySimpleGUI">Anmeldeformular für meine Schule</a></li>
+        </div>
+    </div>
+    <br>
+    <script src="index.js"></script>
 </body>
 </html>
